@@ -1,0 +1,29 @@
+<ion-header  class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons routerLink="/home" slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="header">
+
+    <img src="assets/icon/Logo.jpeg" />
+    <h1>Login</h1>
+
+  </div>
+
+  <form id="form">
+    <app-input placeholder="Matric No" text-center></app-input>
+    <app-input type="password" placeholder="Password"></app-input>
+    <ion-button color="primary" expand="block" shape="round"> Login </ion-button>
+  </form>
+
+
+
+</ion-content>
